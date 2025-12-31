@@ -1,0 +1,11 @@
+name: MinecraftWeb3
+version: 1.0
+main: com.mycompany.minecraftweb3.MinecraftWeb3Plugin
+api-version: "1.21"
+author: alva
+description: Plugin Web3 Marketplace para Minecraft
+
+commands:
+  wallet:
+    description: Gestión de wallet Web3
+    usage: /wallet
