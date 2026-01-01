@@ -3,13 +3,14 @@
 Sistema que permite vincular una wallet Web3 (Ethereum Sepolia)
 con un jugador de Minecraft usando firmas criptográficas reales.
 
-## 🧩 Componentes
+##  Componentes
 
 - **Plugin Minecraft (Paper)**  
   Genera tokens, expone comandos `/wallet link` y `/wallet status`.
 
 - **Backend (Node.js + Express)**  
   Verifica firmas ECDSA y gestiona el estado de vinculación.
+# minecraft-web3
 
 - **Frontend (Next.js + RainbowKit)**  
   Conecta wallets y solicita firma del mensaje.
@@ -17,17 +18,16 @@ con un jugador de Minecraft usando firmas criptográficas reales.
 - **Web3 (Foundry)**  
   Contrato de referencia para validación de firmas.
 
-## 🔐 Seguridad
+##  Seguridad
 
 - Firma criptográfica real
 - Backend no confía en frontend
 - Mensaje reproducible y verificable
 - Anti-spoofing
 
-## 🚀 Stack
+##  Stack
 
 - Java 17 / PaperMC
 - Node.js / Express
 - Next.js / RainbowKit / wagmi
 - Foundry / Solidity
-# minecraft-web3
